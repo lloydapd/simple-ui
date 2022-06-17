@@ -1,10 +1,5 @@
-import { useEffect, useState } from 'react'
 import Head from 'next/head'
-import { Box, Heading, Stack, chakra, Container, HStack, Image, Grid, IconButton } from '@chakra-ui/react'
-import { Fade } from 'react-reveal'
-import { useVideo } from 'react-use'
-import { motion } from 'framer-motion'
-import { FaLinkedin, FaGithub, FaFacebook } from 'react-icons/Fa'
+import { Box } from '@chakra-ui/react'
 import { MostPlayed, LatestUpdates, BestFPS, NowStreaming, MustPlayGame, NintendoDirect, HappeningNow, Footer } from '../sections'
 
 export default function Home() {
